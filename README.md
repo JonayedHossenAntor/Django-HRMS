@@ -7,15 +7,9 @@ An HRMS which supports two kind of users:
 2. **Employee**
 
 ## Short Description 
-An Employer Creates an account and specifies his company name, role/position
-and the total number of employees. He also creates user accounts for his
-employees, manages a database of **company assets**, he can **assign/re-assign**
-assets to his employees and has a recored of which asset is assigned to
-which employee.
+An employer creates an account and enters information about his business, each employee's position and role, and the overall number of employees. Additionally, he creates user accounts for each of his employees, maintains a database of the company's assets, has the ability to **assign/re-assign** assets to employees, and keeps track of which assets are allocated to which employees.
 
-Employees can edit their profiles but never their role/position.
-Employers will get **realtime notifications** on the activities of their employees
-while on the system (i.e *logging in, updating/editing profiles and logging out*).
+##Notes
+The role or position of an employee cannot be changed.
+Employers will receive **realtime notifications** on the activity of their staff members while using the system, including *logging in, updating/editing profiles, and logging out*.
 
-
-Try it [djangohrms.herokuapp.com](https://djangohrms.herokuapp.com)
